@@ -1,35 +1,10 @@
-import { createBrowserRouter } from "react-router-dom";
-import Redirect from "./pages/Redirect";
-import Login from "./pages/Login";
-import RegistrationSuccessful from "./pages/RegistrationSuccessful";
+import React from 'react'
 
-function layout() {
-  const routes = createBrowserRouter([
-    {
-    path: "/",
-    element: <Redirect />,
-  },
-  {
-    path: "/Login",
-    element: <Login />,
-  },
-  {
-    path: "/register",
-    element: <Register />,
-  },
-  {
-    path: "/dashboard",
-    element: <Dashboard/>,
-  },
-  {
-    path: "/sucessful",
-    element: <RegistrationSuccessful />,
-  }
-])
+const page = () => {
+  return (
+<RouterProvider router={routes}> </RouterProvider>
 
-return (
-  <RouterProvider router={routes}> </RouterProvider>
-)
+  )
 }
 
-export default layout
+export default page

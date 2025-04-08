@@ -1,5 +1,6 @@
+"use client"
 import React from 'react'
-import {useNavigate } from 'react-roter-dom'
+import {useNavigate } from 'react-router-dom'
 
 const Redirect = () => {
     const navigate = useNavigate()
