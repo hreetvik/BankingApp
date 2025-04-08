@@ -6,4 +6,4 @@ const RegistrationSucessful = () => {
   )
 }
 
-export default RegistrationSucessf
+export default RegistrationSucessful
